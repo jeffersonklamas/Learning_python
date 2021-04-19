@@ -3,7 +3,4 @@
 
 ### No momento coisas básicas para desenvolvedor web.
 
-### Tecnologias
-
-. [Python 3.8] (___________)
 
