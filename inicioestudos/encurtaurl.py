@@ -1,9 +1,9 @@
 #Encurtador de url com python
 #by @jeffersonklamas
 
-#instale o pyshorteners com 
+#instale o pyshorteners com pip install pyshorteners
 
-pip install pyshorteners
+#Pensar em inserir formulário onde se cola a url e automaticamente gera uma nova url.
 
 import pyshorteners
 
@@ -13,11 +13,11 @@ url = "https://www.pmi.org/learning/library/pmo-agile-transformation-6063"
 
 # Carregando a lib
 
-sh = pyshorteners.Shorteners()
+encurta = pyshorteners.Shortener()
 
 # Irá gerar a URL encurtada
 
-shortUrl = sh.tinyurl.short(url)
+shortUrl = encurta.tinyurl.short(url)
 
 # A nova url
 
