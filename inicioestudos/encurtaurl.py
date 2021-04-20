@@ -7,6 +7,8 @@
 
 import pyshorteners
 
+#url = Input("Cole ou digite a URL que quer encurtar: ")
+
 # URL original
 
 url = "https://www.pmi.org/learning/library/pmo-agile-transformation-6063"
